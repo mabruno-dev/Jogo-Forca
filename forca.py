@@ -27,7 +27,7 @@ while True:
             print(i,end='')
 
     else:
-        print(f'Essa letra não existe. te restam {chances} chances!')
+        print(f'Essa letra não existe. te restam {chances - 1} chances!')
         chances -= 1
         guesses.append(guess)
         print(f'Os seus chutes foram: {guesses}')
